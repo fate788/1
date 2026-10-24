@@ -1,0 +1,102 @@
+{
+  "samples": [
+    {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\archive-history\\finalized\\ARCHIVE-0604\\LuaScript.luac",
+      "size": 86323,
+      "sha256": "6933131488c62845daceb1eb2dfde9d6ddad34213e45a421d51145e18e0c9e2c",
+      "signature_version": "1b 4c 75 61 53 01",
+      "format_byte_offset_5": 1,
+      "extra_8_offset_6_hex": "d0 27 00 00 00 00 00 00",
+      "extra_8_le_uint64": 10192,
+      "luac_data_offset_14_19": "19 93 0d 0a 1a 0a",
+      "size_bytes_offset_20_24": "04 08 04 08 08",
+      "luac_int_offset_25_32": "78 56 00 00 00 00 00 00",
+      "luac_number_offset_33_40": "00 00 00 00 00 28 77 40",
+      "first_post_header_byte_offset_41": 207,
+      "first_post_header_byte_hex": "cf ce ce e8"
+    },
+    {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\archive-history\\finalized\\ARCHIVE-260718\\LuaScript.luac",
+      "size": 92497,
+      "sha256": "1daa8a58f83d377775864a0fc005e2836a3a993dad07f036b5ea5447b7848736",
+      "signature_version": "1b 4c 75 61 53 01",
+      "format_byte_offset_5": 1,
+      "extra_8_offset_6_hex": "97 4c 00 00 00 00 00 00",
+      "extra_8_le_uint64": 19607,
+      "luac_data_offset_14_19": "19 93 0d 0a 1a 0a",
+      "size_bytes_offset_20_24": "04 08 04 08 08",
+      "luac_int_offset_25_32": "78 56 00 00 00 00 00 00",
+      "luac_number_offset_33_40": "00 00 00 00 00 28 77 40",
+      "first_post_header_byte_offset_41": 207,
+      "first_post_header_byte_hex": "cf ce ce 4b"
+    },
+    {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\archive-history\\finalized\\ARCHIVE-260804\\LuaScript.luac",
+      "size": 98984,
+      "sha256": "f3f8a6fb27551b7534717536bba2f971ef93282ed9b2ab3c51607e7dd9bed28b",
+      "signature_version": "1b 4c 75 61 53 01",
+      "format_byte_offset_5": 1,
+      "extra_8_offset_6_hex": "4a 61 00 00 00 00 00 00",
+      "extra_8_le_uint64": 24906,
+      "luac_data_offset_14_19": "19 93 0d 0a 1a 0a",
+      "size_bytes_offset_20_24": "04 08 04 08 08",
+      "luac_int_offset_25_32": "78 56 00 00 00 00 00 00",
+      "luac_number_offset_33_40": "00 00 00 00 00 28 77 40",
+      "first_post_header_byte_offset_41": 207,
+      "first_post_header_byte_hex": "cf ce ce a5"
+    }
+  ],
+  "dll_evidence": {
+    "dll": {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\archive-history\\finalized\\ARCHIVE-260804\\lua53-64.dll",
+      "sha256": "436f6bf9ac414e7e7259bef4f6e287702a41e1fddbdd9af7d43350d47539a3c9",
+      "machine": "PE32+ x64"
+    },
+    "header_check_function_rva": "0xbbce0-0xbbefd",
+    "format2_reference_instruction_rva": "0xbbe18",
+    "format2_reference_file_offset": "0x51218",
+    "size_t_alternate_reference_instruction_rva": "0xbbe30",
+    "size_check_helper_rva": "0xbc140",
+    "undump_caller_rva": "0xbc2e0",
+    "post_header_byte_reader_rva": "0xbad10",
+    "post_header_read_call_rva": "0xbc2e9",
+    "strings": {
+      "LUA_DUMP_STRINGSIZE_FORMAT2": {
+        "rva": "0x157678",
+        "file_offset": "0xec878"
+      },
+      "int": {
+        "rva": "0x157674",
+        "file_offset": "0xec874"
+      },
+      "size_t": {
+        "rva": "0x15769c",
+        "file_offset": "0xec89c"
+      },
+      "Instruction": {
+        "rva": "0x1576a8",
+        "file_offset": "0xec8a8"
+      },
+      "lua_Integer": {
+        "rva": "0x1576b8",
+        "file_offset": "0xec8b8"
+      },
+      "lua_Number": {
+        "rva": "0x1576c8",
+        "file_offset": "0xec8c8"
+      }
+    },
+    "interpretation": {
+      "confirmed": [
+        "The custom label is referenced inside the header-check function.",
+        "It is selected on one branch and passed to the common size-check helper.",
+        "All three samples have a byte at offset 41 equal to 0xcf."
+      ],
+      "unknown": [
+        "The semantic identity of the branch value is unknown.",
+        "The exact mapping of the extra eight bytes at offsets 6..13 is not proven.",
+        "The semantic identity of the byte at offset 41 is not proven."
+      ]
+    }
+  }
+}

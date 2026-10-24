@@ -1,0 +1,391 @@
+{
+  "tool": {
+    "name": "Capstone",
+    "version": "5.0.9",
+    "mode": "X86-64"
+  },
+  "dll": {
+    "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\archive-history\\finalized\\ARCHIVE-260804\\lua53-64.dll",
+    "sha256": "436f6bf9ac414e7e7259bef4f6e287702a41e1fddbdd9af7d43350d47539a3c9",
+    "text_rva": "0x6b000",
+    "text_raw": "0x400",
+    "sections": [
+      {
+        "name": ".textbss",
+        "rva": 4096,
+        "virtual_size": 430716,
+        "raw_size": 0,
+        "raw_ptr": 0
+      },
+      {
+        "name": ".text",
+        "rva": 438272,
+        "virtual_size": 920663,
+        "raw_size": 921088,
+        "raw_ptr": 1024
+      },
+      {
+        "name": ".rdata",
+        "rva": 1359872,
+        "virtual_size": 191671,
+        "raw_size": 192000,
+        "raw_ptr": 922112
+      },
+      {
+        "name": ".data",
+        "rva": 1552384,
+        "virtual_size": 13313,
+        "raw_size": 5120,
+        "raw_ptr": 1114112
+      },
+      {
+        "name": ".pdata",
+        "rva": 1568768,
+        "virtual_size": 43224,
+        "raw_size": 43520,
+        "raw_ptr": 1119232
+      },
+      {
+        "name": ".idata",
+        "rva": 1613824,
+        "virtual_size": 4779,
+        "raw_size": 5120,
+        "raw_ptr": 1162752
+      },
+      {
+        "name": ".msvcjmc",
+        "rva": 1622016,
+        "virtual_size": 492,
+        "raw_size": 512,
+        "raw_ptr": 1167872
+      },
+      {
+        "name": ".00cfg",
+        "rva": 1626112,
+        "virtual_size": 283,
+        "raw_size": 512,
+        "raw_ptr": 1168384
+      },
+      {
+        "name": ".rsrc",
+        "rva": 1630208,
+        "virtual_size": 1084,
+        "raw_size": 1536,
+        "raw_ptr": 1168896
+      },
+      {
+        "name": ".reloc",
+        "rva": 1634304,
+        "virtual_size": 8833,
+        "raw_size": 9216,
+        "raw_ptr": 1170432
+      }
+    ],
+    "pdata_entry_count": 2740
+  },
+  "functions": {
+    "header_check": "0xbbce0-0xbbefd",
+    "reader": "0xbab90-0xbacbf",
+    "qword_loader": "0xbb6c0-0xbb72f",
+    "byte_loader": "0xbad10-0xbad7e",
+    "caller": "0xbc200-0xbc3cc (call site at 0xbc2e0/0xbc2e9)"
+  },
+  "instruction_locations": {
+    "format_byte_load_call": {
+      "rva": "0xbbd96",
+      "file_offset": "0x51196",
+      "pdata_function": [
+        "0xbbce0",
+        "0xbbefd",
+        "0x171110"
+      ]
+    },
+    "extra_qword_load_call": {
+      "rva": "0xbbdb6",
+      "file_offset": "0x511b6",
+      "pdata_function": [
+        "0xbbce0",
+        "0xbbefd",
+        "0x171110"
+      ]
+    },
+    "store_low32_state_20": {
+      "rva": "0xbbdc2",
+      "file_offset": "0x511c2",
+      "pdata_function": [
+        "0xbbce0",
+        "0xbbefd",
+        "0x171110"
+      ]
+    },
+    "state_20_branch": {
+      "rva": "0xbbe13",
+      "file_offset": "0x51213",
+      "pdata_function": [
+        "0xbbce0",
+        "0xbbefd",
+        "0x171110"
+      ]
+    },
+    "enable_transform_state_24": {
+      "rva": "0xbbeec",
+      "file_offset": "0x512ec",
+      "pdata_function": [
+        "0xbbce0",
+        "0xbbefd",
+        "0x171110"
+      ]
+    },
+    "qword_reader_length_8": {
+      "rva": "0xbb6f6",
+      "file_offset": "0x50af6",
+      "pdata_function": [
+        "0xbb6c0",
+        "0xbb730",
+        "0x171040"
+      ]
+    },
+    "qword_reader_call": {
+      "rva": "0xbb707",
+      "file_offset": "0x50b07",
+      "pdata_function": [
+        "0xbb6c0",
+        "0xbb730",
+        "0x171040"
+      ]
+    },
+    "byte_reader_length_1": {
+      "rva": "0xbad46",
+      "file_offset": "0x50146",
+      "pdata_function": [
+        "0xbad10",
+        "0xbad7e",
+        "0x171004"
+      ]
+    },
+    "byte_reader_call": {
+      "rva": "0xbad57",
+      "file_offset": "0x50157",
+      "pdata_function": [
+        "0xbad10",
+        "0xbad7e",
+        "0x171004"
+      ]
+    },
+    "underlying_read_call": {
+      "rva": "0xbabe9",
+      "file_offset": "0x4ffe9",
+      "pdata_function": [
+        "0xbab90",
+        "0xbacbf",
+        "0x170ff0"
+      ]
+    },
+    "transform_check_state_24": {
+      "rva": "0xbac0d",
+      "file_offset": "0x5000d",
+      "pdata_function": [
+        "0xbab90",
+        "0xbacbf",
+        "0x170ff0"
+      ]
+    },
+    "transform_check_state_20": {
+      "rva": "0xbac1e",
+      "file_offset": "0x5001e",
+      "pdata_function": [
+        "0xbab90",
+        "0xbacbf",
+        "0x170ff0"
+      ]
+    },
+    "transform_key_ce": {
+      "rva": "0xbac63",
+      "file_offset": "0x50063",
+      "pdata_function": [
+        "0xbab90",
+        "0xbacbf",
+        "0x170ff0"
+      ]
+    },
+    "transform_shift": {
+      "rva": "0xbac8e",
+      "file_offset": "0x5008e",
+      "pdata_function": [
+        "0xbab90",
+        "0xbacbf",
+        "0x170ff0"
+      ]
+    },
+    "transform_xor": {
+      "rva": "0xbaca6",
+      "file_offset": "0x500a6",
+      "pdata_function": [
+        "0xbab90",
+        "0xbacbf",
+        "0x170ff0"
+      ]
+    },
+    "post_header_byte_call": {
+      "rva": "0xbc2e9",
+      "file_offset": "0x516e9",
+      "pdata_function": [
+        "0xbc200",
+        "0xbc3cc",
+        "0x170fc8"
+      ]
+    }
+  },
+  "verified_instructions": {
+    "format_byte_load_call": {
+      "address": "0xbbd96",
+      "bytes": "e8 75 ef ff ff",
+      "mnemonic": "call",
+      "op_str": "0xbad10"
+    },
+    "extra_qword_load_call": {
+      "address": "0xbbdb6",
+      "bytes": "e8 05 f9 ff ff",
+      "mnemonic": "call",
+      "op_str": "0xbb6c0"
+    },
+    "store_low32_state_20": {
+      "address": "0xbbdc2",
+      "bytes": "89 41 20",
+      "mnemonic": "mov",
+      "op_str": "dword ptr [rcx + 0x20], eax"
+    },
+    "state_20_branch": {
+      "address": "0xbbe13",
+      "bytes": "83 78 20 00",
+      "mnemonic": "cmp",
+      "op_str": "dword ptr [rax + 0x20], 0"
+    },
+    "enable_transform_state_24": {
+      "address": "0xbbeec",
+      "bytes": "c7 40 24 01 00 00 00",
+      "mnemonic": "mov",
+      "op_str": "dword ptr [rax + 0x24], 1"
+    },
+    "qword_reader_length_8": {
+      "address": "0xbb6f6",
+      "bytes": "41 b8 08 00 00 00",
+      "mnemonic": "mov",
+      "op_str": "r8d, 8"
+    },
+    "qword_reader_call": {
+      "address": "0xbb707",
+      "bytes": "e8 84 f4 ff ff",
+      "mnemonic": "call",
+      "op_str": "0xbab90"
+    },
+    "byte_reader_length_1": {
+      "address": "0xbad46",
+      "bytes": "41 b8 01 00 00 00",
+      "mnemonic": "mov",
+      "op_str": "r8d, 1"
+    },
+    "byte_reader_call": {
+      "address": "0xbad57",
+      "bytes": "e8 34 fe ff ff",
+      "mnemonic": "call",
+      "op_str": "0xbab90"
+    },
+    "underlying_read_call": {
+      "address": "0xbabe9",
+      "bytes": "e8 b7 13 fb ff",
+      "mnemonic": "call",
+      "op_str": "0x6bfa5"
+    },
+    "transform_check_state_24": {
+      "address": "0xbac0d",
+      "bytes": "83 78 24 00",
+      "mnemonic": "cmp",
+      "op_str": "dword ptr [rax + 0x24], 0"
+    },
+    "transform_check_state_20": {
+      "address": "0xbac1e",
+      "bytes": "83 78 20 00",
+      "mnemonic": "cmp",
+      "op_str": "dword ptr [rax + 0x20], 0"
+    },
+    "transform_key_ce": {
+      "address": "0xbac63",
+      "bytes": "c6 45 44 ce",
+      "mnemonic": "mov",
+      "op_str": "byte ptr [rbp + 0x44], 0xce"
+    },
+    "transform_shift": {
+      "address": "0xbac8e",
+      "bytes": "8b 40 20",
+      "mnemonic": "mov",
+      "op_str": "eax, dword ptr [rax + 0x20]"
+    },
+    "transform_xor": {
+      "address": "0xbaca6",
+      "bytes": "33 c1",
+      "mnemonic": "xor",
+      "op_str": "eax, ecx"
+    },
+    "post_header_byte_call": {
+      "address": "0xbc2e9",
+      "bytes": "e8 22 ea ff ff",
+      "mnemonic": "call",
+      "op_str": "0xbad10"
+    }
+  },
+  "samples": [
+    {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\archive-history\\finalized\\ARCHIVE-0604\\LuaScript.luac",
+      "size": 86323,
+      "sha256": "6933131488c62845daceb1eb2dfde9d6ddad34213e45a421d51145e18e0c9e2c",
+      "extra8_offset_6_13_hex": "d0 27 00 00 00 00 00 00",
+      "extra8_le_uint64": 10192,
+      "extra8_low32_used_as_key_state": 10192,
+      "first_body_offset": 41,
+      "first_body_raw": 207,
+      "first_body_decode_key_i0": 206,
+      "first_body_decoded": 1
+    },
+    {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\archive-history\\finalized\\ARCHIVE-260718\\LuaScript.luac",
+      "size": 92497,
+      "sha256": "1daa8a58f83d377775864a0fc005e2836a3a993dad07f036b5ea5447b7848736",
+      "extra8_offset_6_13_hex": "97 4c 00 00 00 00 00 00",
+      "extra8_le_uint64": 19607,
+      "extra8_low32_used_as_key_state": 19607,
+      "first_body_offset": 41,
+      "first_body_raw": 207,
+      "first_body_decode_key_i0": 206,
+      "first_body_decoded": 1
+    },
+    {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\archive-history\\finalized\\ARCHIVE-260804\\LuaScript.luac",
+      "size": 98984,
+      "sha256": "f3f8a6fb27551b7534717536bba2f971ef93282ed9b2ab3c51607e7dd9bed28b",
+      "extra8_offset_6_13_hex": "4a 61 00 00 00 00 00 00",
+      "extra8_le_uint64": 24906,
+      "extra8_low32_used_as_key_state": 24906,
+      "first_body_offset": 41,
+      "first_body_raw": 207,
+      "first_body_decode_key_i0": 206,
+      "first_body_decoded": 1
+    }
+  ],
+  "interpretation": {
+    "confirmed": [
+      "Format byte 1 selects an 8-byte read at 0xbbdb6 through 0xbb6c0.",
+      "The qword is stored as its low 32 bits at stream/state +0x20.",
+      "Header success sets stream/state +0x24 to 1 at 0xbbeec.",
+      "Subsequent reads call the common reader with an explicit length.",
+      "When +0x24 and +0x20 are nonzero, the reader XOR-transforms bytes in place.",
+      "At transform index i=0 the key byte is constant 0xce.",
+      "The post-header one-byte read at 0xbc2e9 therefore maps raw 0xcf to decoded 0x01 in all samples."
+    ],
+    "unknown": [
+      "The higher-level semantic name of the +0x20 qword is not proven.",
+      "The complete body field layout after the first byte is not parsed.",
+      "The transform is described as an observed XOR reader; no security or protection purpose is inferred."
+    ]
+  }
+}

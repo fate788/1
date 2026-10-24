@@ -1,0 +1,4 @@
+# Core analysis scripts use Python's standard library.
+# Capstone is required by the optional x64 static-analysis scripts.
+capstone==5.0.9
+

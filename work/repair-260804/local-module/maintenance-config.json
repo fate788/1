@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "target_process": "SC2_x64.exe",
+  "target_game_build": "5.0.17.98370",
+  "selection": {
+    "direct_token": "33",
+    "direct_code": 306,
+    "pair_code": 317
+  },
+  "records": [],
+  "provenance": {
+    "status": "missing_verified_successful_response",
+    "reason": "No successful key-containing response or publisher record specification is present in the workspace.",
+    "network": "disabled",
+    "target_execution": "disabled"
+  }
+}

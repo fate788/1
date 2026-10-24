@@ -1,0 +1,132 @@
+{
+  "input": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\outputs\\custom-luac-parse.json",
+  "sample": "ARCHIVE-260804",
+  "sample_sha256": "f3f8a6fb27551b7534717536bba2f971ef93282ed9b2ab3c51607e7dd9bed28b",
+  "parse_status": "ok",
+  "final_offset": 98984,
+  "remaining": 0,
+  "checks": [
+    {
+      "pc": 154,
+      "decoded_word_hex": "0b86005f",
+      "instruction": "EQ",
+      "operands": {
+        "A": 1,
+        "B": 23,
+        "C": 24
+      },
+      "meaning": "EQ R23,R24 with A=1: equal executes the following JMP; unequal skips it",
+      "operand_registers": {
+        "B": "R23",
+        "C": "R24"
+      },
+      "next_instruction": {
+        "pc": 155,
+        "op": "JMP",
+        "target": 161
+      },
+      "verified": true
+    },
+    {
+      "pc": 172,
+      "decoded_word_hex": "00004622",
+      "instruction": "TEST",
+      "operands": {
+        "A": 24,
+        "C": 1
+      },
+      "meaning": "TEST R24,C=1: false/nil executes the following JMP; truthy skips it",
+      "next_instruction": {
+        "pc": 173,
+        "op": "JMP",
+        "target": 179
+      },
+      "verified": true
+    },
+    {
+      "function": "root.child76",
+      "registration": {
+        "root_pc": 1411,
+        "key": "onLuaError",
+        "closure_pc": 1410
+      },
+      "upvalues": [
+        {
+          "instack": 0,
+          "idx": 0
+        },
+        {
+          "instack": 1,
+          "idx": 72
+        },
+        {
+          "instack": 1,
+          "idx": 73
+        }
+      ],
+      "first_guard": {
+        "get": {
+          "pc": 12,
+          "op": "GETUPVAL",
+          "A": 2,
+          "B": 1
+        },
+        "test": {
+          "pc": 13,
+          "op": "TEST",
+          "A": 2,
+          "C": 0
+        },
+        "jump": {
+          "pc": 14,
+          "op": "JMP",
+          "target": 16
+        },
+        "assignment": {
+          "pc": 15,
+          "op": "SETTABUP",
+          "table_upvalue": 1,
+          "key_rk": 263,
+          "value_rk": 264,
+          "key": "Enabled",
+          "value": false
+        }
+      },
+      "second_guard": {
+        "get": {
+          "pc": 16,
+          "op": "GETUPVAL",
+          "A": 2,
+          "B": 2
+        },
+        "test": {
+          "pc": 17,
+          "op": "TEST",
+          "A": 2,
+          "C": 0
+        },
+        "jump": {
+          "pc": 18,
+          "op": "JMP",
+          "target": 20
+        },
+        "assignment": {
+          "pc": 19,
+          "op": "SETTABUP",
+          "table_upvalue": 2,
+          "key_rk": 263,
+          "value_rk": 264,
+          "key": "Enabled",
+          "value": false
+        }
+      },
+      "semantic_warning": "Each guard tests the same upvalue that SETTABUP then uses as a table. If it is literally false or nil, the assignment itself would attempt to index a false/nil value and can raise another Lua error.",
+      "verified": true
+    }
+  ],
+  "env_CloseCE_assignments": [],
+  "diagnostic_copy": {
+    "created": false,
+    "reason": "No verified custom Lua bytecode encoder, archive repacker, or round-trip identity test is present. Inserting observation instructions could change code counts, jump targets, constants, closures, or register lifetimes."
+  }
+}

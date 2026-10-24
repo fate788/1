@@ -1,0 +1,275 @@
+{
+  "sample": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\archive-history\\finalized\\ARCHIVE-260804\\LuaScript.luac",
+  "lua_sha256": "f3f8a6fb27551b7534717536bba2f971ef93282ed9b2ab3c51607e7dd9bed28b",
+  "root_r23_creation": {
+    "pc": 161,
+    "op": "NEWTABLE",
+    "A": 23
+  },
+  "root_registration": [
+    {
+      "pc": 162,
+      "op": "CLOSURE",
+      "A": 24,
+      "child": 5
+    },
+    {
+      "pc": 163,
+      "op": "SETTABUP",
+      "key": "GetAccountHandle",
+      "value": "R24"
+    }
+  ],
+  "r23_resolved_paths": [
+    {
+      "path": "root.child[5]",
+      "slot": 1,
+      "upvalue": {
+        "instack": 1,
+        "idx": 23
+      },
+      "target": [
+        "root.local",
+        23
+      ],
+      "uses": [
+        {
+          "pc": 46,
+          "word": 8389061,
+          "opcode": 5,
+          "A": 7,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "sBx": -130559,
+          "opname": "GETUPVAL"
+        },
+        {
+          "pc": 53,
+          "word": 8388933,
+          "opcode": 5,
+          "A": 5,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "sBx": -130559,
+          "opname": "GETUPVAL"
+        }
+      ],
+      "descendants": []
+    },
+    {
+      "path": "root.child[73]",
+      "slot": 26,
+      "upvalue": {
+        "instack": 1,
+        "idx": 23
+      },
+      "target": [
+        "root.local",
+        23
+      ],
+      "uses": [],
+      "descendants": [
+        {
+          "child": 0,
+          "slot": 35
+        }
+      ]
+    },
+    {
+      "path": "root.child[73].child[0]",
+      "slot": 35,
+      "upvalue": {
+        "instack": 0,
+        "idx": 26
+      },
+      "target": [
+        "root.local",
+        23
+      ],
+      "uses": [
+        {
+          "pc": 204,
+          "word": 293601477,
+          "opcode": 5,
+          "A": 3,
+          "B": 35,
+          "C": 0,
+          "Bx": 17920,
+          "sBx": -113151,
+          "opname": "GETUPVAL"
+        }
+      ],
+      "descendants": []
+    }
+  ],
+  "child5": {
+    "upvalues": [
+      {
+        "instack": 0,
+        "idx": 0
+      },
+      {
+        "instack": 1,
+        "idx": 23
+      }
+    ],
+    "instructions": [
+      {
+        "pc": 46,
+        "op": "GETUPVAL",
+        "A": 7,
+        "B": 1,
+        "C": 0
+      },
+      {
+        "pc": 48,
+        "op": "CALL",
+        "A": 6,
+        "B": 3,
+        "C": 1
+      },
+      {
+        "pc": 53,
+        "op": "GETUPVAL",
+        "A": 5,
+        "B": 1,
+        "C": 0
+      },
+      {
+        "pc": 54,
+        "op": "LEN",
+        "A": 5,
+        "B": 5,
+        "C": 0
+      },
+      {
+        "pc": 55,
+        "op": "LT",
+        "A": 0,
+        "B": 267,
+        "C": 5
+      },
+      {
+        "pc": 56,
+        "op": "JMP",
+        "A": 0,
+        "B": 256,
+        "C": 2
+      },
+      {
+        "pc": 57,
+        "op": "LOADBOOL",
+        "A": 5,
+        "B": 1,
+        "C": 0
+      },
+      {
+        "pc": 58,
+        "op": "RETURN",
+        "A": 5,
+        "B": 2,
+        "C": 0
+      },
+      {
+        "pc": 60,
+        "op": "LOADBOOL",
+        "A": 5,
+        "B": 0,
+        "C": 0
+      },
+      {
+        "pc": 61,
+        "op": "RETURN",
+        "A": 5,
+        "B": 2,
+        "C": 0
+      }
+    ]
+  },
+  "on_timer_r23_and_consumers": [
+    {
+      "pc": 189,
+      "op": "GETTABUP",
+      "upvalue_slot": 35,
+      "key": 1,
+      "meaning": "R23[1]"
+    },
+    {
+      "pc": 190,
+      "op": "GETTABUP",
+      "key": "smdx",
+      "arg": "33"
+    },
+    {
+      "pc": 193,
+      "op": "EQ",
+      "meaning": "compare R23[1] with smdx('33')"
+    },
+    {
+      "pc": 197,
+      "op": "GETTABUP",
+      "key": "gameIntCode",
+      "meaning": "external/global call target"
+    },
+    {
+      "pc": 200,
+      "op": "LOADK",
+      "value": 306,
+      "meaning": "stored in upvalue 11 after first-record match path"
+    },
+    {
+      "pc": 203,
+      "op": "GETTABUP",
+      "key": "pairs",
+      "meaning": "pairs(R23)"
+    },
+    {
+      "pc": 204,
+      "op": "GETUPVAL",
+      "upvalue_slot": 35,
+      "meaning": "passes captured R23 to pairs"
+    },
+    {
+      "pc": 205,
+      "op": "CALL",
+      "meaning": "pairs(R23)"
+    },
+    {
+      "pc": 207,
+      "op": "GETTABUP",
+      "key": "smdx",
+      "meaning": "hash/transform of a captured runtime value"
+    },
+    {
+      "pc": 210,
+      "op": "EQ",
+      "meaning": "compares an iterator result with smdx(captured value)"
+    },
+    {
+      "pc": 212,
+      "op": "LOADK",
+      "value": 317,
+      "meaning": "stored in upvalue 11 after loop-match path"
+    },
+    {
+      "pc": 216,
+      "op": "GETTABUP",
+      "key": "gameIntCode",
+      "meaning": "external/global call target"
+    },
+    {
+      "pc": 266,
+      "op": "GETUPVAL",
+      "upvalue_slot": 16,
+      "meaning": "continues into process/memory setup after selection"
+    }
+  ],
+  "r23_direct_consumer_scope": {
+    "direct_consumer": "root.child[73].child[0]",
+    "nested_child0_captures_root_r23": false,
+    "direct_memory_feature_code": "root.child[73].child[0].child[0]",
+    "external_side_effect_boundary": "gameIntCode and later OnTimer code are external/host-dependent"
+  }
+}

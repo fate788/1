@@ -1,0 +1,157 @@
+{
+  "method": [
+    "Read-only copy of existing extracted archive manifests and files; no original EXE modified.",
+    "ARCHIVE container was parsed as little-endian uint32 file count followed by raw DEFLATE stream at offset 4 and per-file name/folder/size records.",
+    "CETRAINER was decoded in memory using the public Cheat Engine OpenSave protection order: byte-wise reverse/XOR passes, CE trainer header, raw DEFLATE; decoded XML was written as a copy.",
+    "LuaScript first decodeFunction argument was decoded with the published CustomBase85 alphabet and zlib wrapper; the resulting bytes were saved without execution."
+  ],
+  "versions": {
+    "ARCHIVE-0604": {
+      "files": {
+        "manifest.json": {
+          "path": "ARCHIVE-0604/manifest.json",
+          "size": 1455,
+          "sha256": "726bccdd97699825be2a9be70569532e9acde27fe605897b764ac38c00782c87"
+        },
+        "CET_TRAINER.CETRAINER": {
+          "path": "ARCHIVE-0604/CET_TRAINER.CETRAINER",
+          "size": 54436,
+          "sha256": "9e0ca7e05d951fe74227ff73d1e9ea81aea88739e8a04ad3552aeca5d08f321a"
+        },
+        "defines.lua": {
+          "path": "ARCHIVE-0604/defines.lua",
+          "size": 12744,
+          "sha256": "42ddf4de2d9e48adcdc3d0c1fbbf81c748d576a72452c42ced24087062a03a14"
+        },
+        "cheatengine-x86_64.exe": {
+          "path": "ARCHIVE-0604/cheatengine-x86_64.exe",
+          "size": 17379744,
+          "sha256": "c743cbed593eabb1bf8f938395045df5c6422ffa9edb3a7be6abcbcb86398b01"
+        },
+        "lua53-64.dll": {
+          "path": "ARCHIVE-0604/lua53-64.dll",
+          "size": 1205640,
+          "sha256": "436f6bf9ac414e7e7259bef4f6e287702a41e1fddbdd9af7d43350d47539a3c9"
+        },
+        "CET_TRAINER.CETRAINER.xml": {
+          "path": "ARCHIVE-0604/CET_TRAINER.CETRAINER.xml",
+          "size": 66905,
+          "sha256": "16ada3e2fb85508a04dc62ed098f24a0978261843f5d36ecda227c6d24d760d0"
+        },
+        "LuaScript.txt": {
+          "path": "ARCHIVE-0604/LuaScript.txt",
+          "size": 66734,
+          "sha256": "67d6b1cee370789be11baf6e877b0a11bf3b3f1380c912ae6b496214fde8ae62"
+        },
+        "LuaScript.luac": {
+          "path": "ARCHIVE-0604/LuaScript.luac",
+          "size": 86323,
+          "sha256": "6933131488c62845daceb1eb2dfde9d6ddad34213e45a421d51145e18e0c9e2c"
+        }
+      },
+      "xml_root": "CheatTable",
+      "xml_attrs": {
+        "CheatEngineTableVersion": "46"
+      },
+      "lua_script_length": 66734
+    },
+    "ARCHIVE-260718": {
+      "files": {
+        "manifest.json": {
+          "path": "ARCHIVE-260718/manifest.json",
+          "size": 1457,
+          "sha256": "a3259c44cbb3588ea17104f3b3bd1eab0bc44589a704f3224bde5e1f0204d037"
+        },
+        "CET_TRAINER.CETRAINER": {
+          "path": "ARCHIVE-260718/CET_TRAINER.CETRAINER",
+          "size": 57856,
+          "sha256": "694a592f1d6f9e3ef89a672d94e4128a5569f9900c964666defd099dbe4b46db"
+        },
+        "defines.lua": {
+          "path": "ARCHIVE-260718/defines.lua",
+          "size": 12744,
+          "sha256": "42ddf4de2d9e48adcdc3d0c1fbbf81c748d576a72452c42ced24087062a03a14"
+        },
+        "cheatengine-x86_64.exe": {
+          "path": "ARCHIVE-260718/cheatengine-x86_64.exe",
+          "size": 17379744,
+          "sha256": "c743cbed593eabb1bf8f938395045df5c6422ffa9edb3a7be6abcbcb86398b01"
+        },
+        "lua53-64.dll": {
+          "path": "ARCHIVE-260718/lua53-64.dll",
+          "size": 1205640,
+          "sha256": "436f6bf9ac414e7e7259bef4f6e287702a41e1fddbdd9af7d43350d47539a3c9"
+        },
+        "CET_TRAINER.CETRAINER.xml": {
+          "path": "ARCHIVE-260718/CET_TRAINER.CETRAINER.xml",
+          "size": 71170,
+          "sha256": "7d73cac77bf64e4f47f235a96961ac34bbb580225b4c4a65708596905a5f700e"
+        },
+        "LuaScript.txt": {
+          "path": "ARCHIVE-260718/LuaScript.txt",
+          "size": 70999,
+          "sha256": "88b5303dfdd048be24a77f2f19d1cf1ec60941d779cd6b58db5067e2233f6953"
+        },
+        "LuaScript.luac": {
+          "path": "ARCHIVE-260718/LuaScript.luac",
+          "size": 92497,
+          "sha256": "1daa8a58f83d377775864a0fc005e2836a3a993dad07f036b5ea5447b7848736"
+        }
+      },
+      "xml_root": "CheatTable",
+      "xml_attrs": {
+        "CheatEngineTableVersion": "46"
+      },
+      "lua_script_length": 70999
+    },
+    "ARCHIVE-260804": {
+      "files": {
+        "manifest.json": {
+          "path": "ARCHIVE-260804/manifest.json",
+          "size": 1457,
+          "sha256": "64b643d39a31c6847758e478809fd43e4fcd80fd317f48b2e80cc774bd404672"
+        },
+        "CET_TRAINER.CETRAINER": {
+          "path": "ARCHIVE-260804/CET_TRAINER.CETRAINER",
+          "size": 61781,
+          "sha256": "e68e72709c51000b172080aea5ecf9462759c00294c8ed230feef8f2eb0175da"
+        },
+        "defines.lua": {
+          "path": "ARCHIVE-260804/defines.lua",
+          "size": 12744,
+          "sha256": "42ddf4de2d9e48adcdc3d0c1fbbf81c748d576a72452c42ced24087062a03a14"
+        },
+        "cheatengine-x86_64.exe": {
+          "path": "ARCHIVE-260804/cheatengine-x86_64.exe",
+          "size": 17379744,
+          "sha256": "c743cbed593eabb1bf8f938395045df5c6422ffa9edb3a7be6abcbcb86398b01"
+        },
+        "lua53-64.dll": {
+          "path": "ARCHIVE-260804/lua53-64.dll",
+          "size": 1205640,
+          "sha256": "436f6bf9ac414e7e7259bef4f6e287702a41e1fddbdd9af7d43350d47539a3c9"
+        },
+        "CET_TRAINER.CETRAINER.xml": {
+          "path": "ARCHIVE-260804/CET_TRAINER.CETRAINER.xml",
+          "size": 76002,
+          "sha256": "9b416da072935a375644c92270102c1a1c8859f002d631c8d859c0626185d533"
+        },
+        "LuaScript.txt": {
+          "path": "ARCHIVE-260804/LuaScript.txt",
+          "size": 75831,
+          "sha256": "2200281d47c03f840acf7b5d58edeef1ef395aaef2cccf7602fb9cfad904029f"
+        },
+        "LuaScript.luac": {
+          "path": "ARCHIVE-260804/LuaScript.luac",
+          "size": 98984,
+          "sha256": "f3f8a6fb27551b7534717536bba2f971ef93282ed9b2ab3c51607e7dd9bed28b"
+        }
+      },
+      "xml_root": "CheatTable",
+      "xml_attrs": {
+        "CheatEngineTableVersion": "46"
+      },
+      "lua_script_length": 75831
+    }
+  }
+}

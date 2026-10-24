@@ -1,0 +1,79 @@
+metadata {'depth': 1, 'linedefined': 134, 'lastlinedefined': 161, 'numparams': 2, 'maxstacksize': 9, 'upvalue_count': 2, 'proto_count': 0}
+upvalues [{'instack': 0, 'idx': 0}, {'instack': 1, 'idx': 23}]
+constants
+{'index': 0, 'tag': 4, 'kind': 'short_string', 'value': {'size_including_nul': 7, 'text_hex': '73 74 72 69 6e 67', 'text': 'string'}}
+{'index': 1, 'tag': 4, 'kind': 'short_string', 'value': {'size_including_nul': 5, 'text_hex': '66 69 6e 64', 'text': 'find'}}
+{'index': 2, 'tag': 19, 'kind': 'integer', 'value': 1}
+{'index': 3, 'tag': 4, 'kind': 'short_string', 'value': {'size_including_nul': 2, 'text_hex': '0a', 'text': '\n'}}
+{'index': 4, 'tag': 4, 'kind': 'short_string', 'value': {'size_including_nul': 4, 'text_hex': '73 75 62', 'text': 'sub'}}
+{'index': 5, 'tag': 19, 'kind': 'integer', 'value': 35}
+{'index': 6, 'tag': 19, 'kind': 'integer', 'value': 3}
+{'index': 7, 'tag': 19, 'kind': 'integer', 'value': 34}
+{'index': 8, 'tag': 4, 'kind': 'short_string', 'value': {'size_including_nul': 1, 'text_hex': '', 'text': ''}}
+{'index': 9, 'tag': 4, 'kind': 'short_string', 'value': {'size_including_nul': 6, 'text_hex': '74 61 62 6c 65', 'text': 'table'}}
+{'index': 10, 'tag': 4, 'kind': 'short_string', 'value': {'size_including_nul': 7, 'text_hex': '69 6e 73 65 72 74', 'text': 'insert'}}
+{'index': 11, 'tag': 19, 'kind': 'integer', 'value': 0}
+instructions
+{'pc': 0, 'word': 4194438, 'opcode': 6, 'A': 2, 'B': 0, 'C': 256, 'Bx': 256, 'sBx': -130815, 'opname': 'GETTABUP'}
+{'pc': 1, 'word': 20988039, 'opcode': 7, 'A': 2, 'B': 2, 'C': 257, 'Bx': 1281, 'sBx': -129790, 'opname': 'GETTABLE'}
+{'pc': 2, 'word': 192, 'opcode': 0, 'A': 3, 'B': 0, 'C': 0, 'Bx': 0, 'sBx': -131071, 'opname': 'MOVE'}
+{'pc': 3, 'word': 8388864, 'opcode': 0, 'A': 4, 'B': 1, 'C': 0, 'Bx': 512, 'sBx': -130559, 'opname': 'MOVE'}
+{'pc': 4, 'word': 33089, 'opcode': 1, 'A': 5, 'B': 0, 'C': 2, 'Bx': 2, 'sBx': -131069, 'opname': 'LOADK'}
+{'pc': 5, 'word': 8388995, 'opcode': 3, 'A': 6, 'B': 1, 'C': 0, 'Bx': 512, 'sBx': -130559, 'opname': 'LOADBOOL'}
+{'pc': 6, 'word': 41975972, 'opcode': 36, 'A': 2, 'B': 5, 'C': 2, 'Bx': 2562, 'sBx': -128509, 'opname': 'CALL'}
+{'pc': 7, 'word': 196, 'opcode': 4, 'A': 3, 'B': 0, 'C': 0, 'Bx': 0, 'sBx': -131071, 'opname': 'LOADNIL'}
+{'pc': 8, 'word': 162, 'opcode': 34, 'A': 2, 'B': 0, 'C': 0, 'Bx': 0, 'sBx': -131071, 'opname': 'TEST'}
+{'pc': 9, 'word': 2147762206, 'opcode': 30, 'A': 0, 'B': 256, 'C': 17, 'Bx': 131089, 'sBx': 18, 'opname': 'JMP', 'jump_target': 28}
+{'pc': 10, 'word': 4194566, 'opcode': 6, 'A': 4, 'B': 0, 'C': 256, 'Bx': 256, 'sBx': -130815, 'opname': 'GETTABUP'}
+{'pc': 11, 'word': 37765383, 'opcode': 7, 'A': 4, 'B': 4, 'C': 257, 'Bx': 2305, 'sBx': -128766, 'opname': 'GETTABLE'}
+{'pc': 12, 'word': 320, 'opcode': 0, 'A': 5, 'B': 0, 'C': 0, 'Bx': 0, 'sBx': -131071, 'opname': 'MOVE'}
+{'pc': 13, 'word': 49537, 'opcode': 1, 'A': 6, 'B': 0, 'C': 3, 'Bx': 3, 'sBx': -131068, 'opname': 'LOADK'}
+{'pc': 14, 'word': 16777664, 'opcode': 0, 'A': 7, 'B': 2, 'C': 0, 'Bx': 1024, 'sBx': -130047, 'opname': 'MOVE'}
+{'pc': 15, 'word': 33587492, 'opcode': 36, 'A': 4, 'B': 4, 'C': 2, 'Bx': 2050, 'sBx': -129021, 'opname': 'CALL'}
+{'pc': 16, 'word': 16674, 'opcode': 34, 'A': 4, 'B': 0, 'C': 1, 'Bx': 1, 'sBx': -131070, 'opname': 'TEST'}
+{'pc': 17, 'word': 2147500062, 'opcode': 30, 'A': 0, 'B': 256, 'C': 1, 'Bx': 131073, 'sBx': 2, 'opname': 'JMP', 'jump_target': 20}
+{'pc': 18, 'word': 348, 'opcode': 28, 'A': 5, 'B': 0, 'C': 0, 'Bx': 0, 'sBx': -131071, 'opname': 'LEN'}
+{'pc': 19, 'word': 46170381, 'opcode': 13, 'A': 4, 'B': 5, 'C': 258, 'Bx': 2818, 'sBx': -128253, 'opname': 'ADD'}
+{'pc': 20, 'word': 4194630, 'opcode': 6, 'A': 5, 'B': 0, 'C': 256, 'Bx': 256, 'sBx': -130815, 'opname': 'GETTABUP'}
+{'pc': 21, 'word': 46203207, 'opcode': 7, 'A': 5, 'B': 5, 'C': 260, 'Bx': 2820, 'sBx': -128251, 'opname': 'GETTABLE'}
+{'pc': 22, 'word': 384, 'opcode': 0, 'A': 6, 'B': 0, 'C': 0, 'Bx': 0, 'sBx': -131071, 'opname': 'MOVE'}
+{'pc': 23, 'word': 16777664, 'opcode': 0, 'A': 7, 'B': 2, 'C': 0, 'Bx': 1024, 'sBx': -130047, 'opname': 'MOVE'}
+{'pc': 24, 'word': 37782030, 'opcode': 14, 'A': 8, 'B': 4, 'C': 258, 'Bx': 2306, 'sBx': -128765, 'opname': 'SUB'}
+{'pc': 25, 'word': 33587556, 'opcode': 36, 'A': 5, 'B': 4, 'C': 2, 'Bx': 2050, 'sBx': -129021, 'opname': 'CALL'}
+{'pc': 26, 'word': 41943232, 'opcode': 0, 'A': 3, 'B': 5, 'C': 0, 'Bx': 2560, 'sBx': -128511, 'opname': 'MOVE'}
+{'pc': 27, 'word': 2147500062, 'opcode': 30, 'A': 0, 'B': 256, 'C': 1, 'Bx': 131073, 'sBx': 2, 'opname': 'JMP', 'jump_target': 30}
+{'pc': 28, 'word': 259, 'opcode': 3, 'A': 4, 'B': 0, 'C': 0, 'Bx': 0, 'sBx': -131071, 'opname': 'LOADBOOL'}
+{'pc': 29, 'word': 16777510, 'opcode': 38, 'A': 4, 'B': 2, 'C': 0, 'Bx': 1024, 'sBx': -130047, 'opname': 'RETURN'}
+{'pc': 30, 'word': 33025, 'opcode': 1, 'A': 4, 'B': 0, 'C': 2, 'Bx': 2, 'sBx': -131069, 'opname': 'LOADK'}
+{'pc': 31, 'word': 4194630, 'opcode': 6, 'A': 5, 'B': 0, 'C': 256, 'Bx': 256, 'sBx': -130815, 'opname': 'GETTABUP'}
+{'pc': 32, 'word': 46203207, 'opcode': 7, 'A': 5, 'B': 5, 'C': 260, 'Bx': 2820, 'sBx': -128251, 'opname': 'GETTABLE'}
+{'pc': 33, 'word': 25166208, 'opcode': 0, 'A': 6, 'B': 3, 'C': 0, 'Bx': 1536, 'sBx': -129535, 'opname': 'MOVE'}
+{'pc': 34, 'word': 37831119, 'opcode': 15, 'A': 7, 'B': 4, 'C': 261, 'Bx': 2309, 'sBx': -128762, 'opname': 'MUL'}
+{'pc': 35, 'word': 2197930445, 'opcode': 13, 'A': 7, 'B': 262, 'C': 7, 'Bx': 134151, 'sBx': 3080, 'opname': 'ADD'}
+{'pc': 36, 'word': 37831183, 'opcode': 15, 'A': 8, 'B': 4, 'C': 261, 'Bx': 2309, 'sBx': -128762, 'opname': 'MUL'}
+{'pc': 37, 'word': 2197946893, 'opcode': 13, 'A': 8, 'B': 262, 'C': 8, 'Bx': 134152, 'sBx': 3081, 'opname': 'ADD'}
+{'pc': 38, 'word': 71418381, 'opcode': 13, 'A': 8, 'B': 8, 'C': 263, 'Bx': 4359, 'sBx': -126712, 'opname': 'ADD'}
+{'pc': 39, 'word': 33587556, 'opcode': 36, 'A': 5, 'B': 4, 'C': 2, 'Bx': 2050, 'sBx': -129021, 'opname': 'CALL'}
+{'pc': 40, 'word': 354, 'opcode': 34, 'A': 5, 'B': 0, 'C': 0, 'Bx': 0, 'sBx': -131071, 'opname': 'TEST'}
+{'pc': 41, 'word': 2147647518, 'opcode': 30, 'A': 0, 'B': 256, 'C': 10, 'Bx': 131082, 'sBx': 11, 'opname': 'JMP', 'jump_target': 53}
+{'pc': 42, 'word': 46268511, 'opcode': 31, 'A': 1, 'B': 5, 'C': 264, 'Bx': 2824, 'sBx': -128247, 'opname': 'EQ'}
+{'pc': 43, 'word': 2147614750, 'opcode': 30, 'A': 0, 'B': 256, 'C': 8, 'Bx': 131080, 'sBx': 9, 'opname': 'JMP', 'jump_target': 53}
+{'pc': 44, 'word': 4342150, 'opcode': 6, 'A': 6, 'B': 0, 'C': 265, 'Bx': 265, 'sBx': -130806, 'opname': 'GETTABUP'}
+{'pc': 45, 'word': 54690183, 'opcode': 7, 'A': 6, 'B': 6, 'C': 266, 'Bx': 3338, 'sBx': -127733, 'opname': 'GETTABLE'}
+{'pc': 46, 'word': 8389061, 'opcode': 5, 'A': 7, 'B': 1, 'C': 0, 'Bx': 512, 'sBx': -130559, 'opname': 'GETUPVAL'}
+{'pc': 47, 'word': 41943552, 'opcode': 0, 'A': 8, 'B': 5, 'C': 0, 'Bx': 2560, 'sBx': -128511, 'opname': 'MOVE'}
+{'pc': 48, 'word': 25182628, 'opcode': 36, 'A': 6, 'B': 3, 'C': 1, 'Bx': 1537, 'sBx': -129534, 'opname': 'CALL'}
+{'pc': 49, 'word': 2147483678, 'opcode': 30, 'A': 0, 'B': 256, 'C': 0, 'Bx': 131072, 'sBx': 1, 'opname': 'JMP', 'jump_target': 51}
+{'pc': 50, 'word': 2147500062, 'opcode': 30, 'A': 0, 'B': 256, 'C': 1, 'Bx': 131073, 'sBx': 2, 'opname': 'JMP', 'jump_target': 53}
+{'pc': 51, 'word': 37781773, 'opcode': 13, 'A': 4, 'B': 4, 'C': 258, 'Bx': 2306, 'sBx': -128765, 'opname': 'ADD'}
+{'pc': 52, 'word': 2147106846, 'opcode': 30, 'A': 0, 'B': 255, 'C': 489, 'Bx': 131049, 'sBx': -22, 'opname': 'JMP', 'jump_target': 31}
+{'pc': 53, 'word': 8388933, 'opcode': 5, 'A': 5, 'B': 1, 'C': 0, 'Bx': 512, 'sBx': -130559, 'opname': 'GETUPVAL'}
+{'pc': 54, 'word': 41943388, 'opcode': 28, 'A': 5, 'B': 5, 'C': 0, 'Bx': 2560, 'sBx': -128511, 'opname': 'LEN'}
+{'pc': 55, 'word': 2239840288, 'opcode': 32, 'A': 0, 'B': 267, 'C': 5, 'Bx': 136709, 'sBx': 5638, 'opname': 'LT'}
+{'pc': 56, 'word': 2147516446, 'opcode': 30, 'A': 0, 'B': 256, 'C': 2, 'Bx': 131074, 'sBx': 3, 'opname': 'JMP', 'jump_target': 60}
+{'pc': 57, 'word': 8388931, 'opcode': 3, 'A': 5, 'B': 1, 'C': 0, 'Bx': 512, 'sBx': -130559, 'opname': 'LOADBOOL'}
+{'pc': 58, 'word': 16777574, 'opcode': 38, 'A': 5, 'B': 2, 'C': 0, 'Bx': 1024, 'sBx': -130047, 'opname': 'RETURN'}
+{'pc': 59, 'word': 2147500062, 'opcode': 30, 'A': 0, 'B': 256, 'C': 1, 'Bx': 131073, 'sBx': 2, 'opname': 'JMP', 'jump_target': 62}
+{'pc': 60, 'word': 323, 'opcode': 3, 'A': 5, 'B': 0, 'C': 0, 'Bx': 0, 'sBx': -131071, 'opname': 'LOADBOOL'}
+{'pc': 61, 'word': 16777574, 'opcode': 38, 'A': 5, 'B': 2, 'C': 0, 'Bx': 1024, 'sBx': -130047, 'opname': 'RETURN'}
+{'pc': 62, 'word': 8388646, 'opcode': 38, 'A': 0, 'B': 1, 'C': 0, 'Bx': 512, 'sBx': -130559, 'opname': 'RETURN'}

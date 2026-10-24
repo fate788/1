@@ -1,0 +1,79 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa
+id_rsa.*
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+work/venv-capstone/
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Executable, library, and dump artifacts
+*.exe
+*.dll
+*.ocx
+*.sys
+*.pml
+*.PML
+*.tmp
+*.raw
+*.dec
+*.luac
+*.CETRAINER
+*.bak
+
+# Large/private runtime evidence and local copies
+work/procmon/
+work/dynamic-run/
+work/dynamic-observation/
+work/target-observation/
+work/history/
+work/public/
+work/archive-history/extracted/
+work/archive-history/decoded/
+work/archive-history/luac/
+# Generated reports containing full static strings, endpoints, or local identifiers
+work/archive-history/finalized/custom-luac-parse.json
+work/archive-history/finalized/custom-luac-summary.json
+work/vm-static-evidence.stdout.json
+outputs/
+
+# Embedded payload text and generated container copies
+**/LuaScript.txt
+**/CET_TRAINER.CETRAINER.xml
+
+# Generated repair outputs; keep source scripts and documentation
+work/repair-260804/reference/
+work/repair-260804/roundtrip/*.luac
+work/repair-260804/candidate/*.exe
+work/repair-260804/test-runs/
+work/repair-260804/baselines/
+*.roundtrip
+*.mutated
+*.archive.*
+

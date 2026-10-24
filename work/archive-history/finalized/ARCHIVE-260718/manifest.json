@@ -1,0 +1,44 @@
+{
+  "archive": "ARCHIVE-260718.raw",
+  "raw_size": 6998160,
+  "raw_sha256": "5b11b2a22ad319ab4ea558361603061d1e69002f4278cf622dc28dbdeff67400",
+  "decompressed_size": 18656098,
+  "records": [
+    {
+      "name": "CET_TRAINER.CETRAINER",
+      "folder": "",
+      "size": 57856,
+      "sha256": "694a592f1d6f9e3ef89a672d94e4128a5569f9900c964666defd099dbe4b46db",
+      "head": "0a120f0464bca02391448bf118ba9614913d1dc90151bb05d2e181e66fe287dd",
+      "start": 0,
+      "data_offset": 33
+    },
+    {
+      "name": "defines.lua",
+      "folder": "",
+      "size": 12744,
+      "sha256": "42ddf4de2d9e48adcdc3d0c1fbbf81c748d576a72452c42ced24087062a03a14",
+      "head": "2d2d446566696e65733a0d0a0d0a2d2d636865636b626f782073746174652064",
+      "start": 57889,
+      "data_offset": 57912
+    },
+    {
+      "name": "cheatengine-x86_64.exe",
+      "folder": "",
+      "size": 17379744,
+      "sha256": "c743cbed593eabb1bf8f938395045df5c6422ffa9edb3a7be6abcbcb86398b01",
+      "head": "4d5a90000300000004000000ffff0000b8000000000000004000000000000000",
+      "start": 70656,
+      "data_offset": 70690
+    },
+    {
+      "name": "lua53-64.dll",
+      "folder": "",
+      "size": 1205640,
+      "sha256": "436f6bf9ac414e7e7259bef4f6e287702a41e1fddbdd9af7d43350d47539a3c9",
+      "head": "4d5a90000300000004000000ffff0000b8000000000000004000000000000000",
+      "start": 17450434,
+      "data_offset": 17450458
+    }
+  ]
+}

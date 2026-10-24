@@ -1,0 +1,110 @@
+{
+  "parser": "standard Lua 5.3 layout probe only; no execution",
+  "versions": {
+    "ARCHIVE-0604": {
+      "luac_sha256": "6933131488c62845daceb1eb2dfde9d6ddad34213e45a421d51145e18e0c9e2c",
+      "size": 86323,
+      "magic": "\u001bLuaS",
+      "version_byte": 83,
+      "format_byte": 1,
+      "extension_after_format": "d027000000000000",
+      "luac_data": "19930d0a1a0a",
+      "sizes": [
+        4,
+        8,
+        4,
+        8,
+        8
+      ],
+      "luac_int": 22136,
+      "luac_num": 370.5,
+      "body_offset": 41,
+      "standard_probe": {
+        "upvalue_count_byte": 207,
+        "source_size_byte": 206,
+        "source_end": 207,
+        "linedefined": 3238299501,
+        "lastlinedefined": 2904265800,
+        "numparams": 191,
+        "is_vararg": 108,
+        "maxstacksize": 2,
+        "code_size": 3940078843,
+        "code_bytes_available": 86060,
+        "valid_code_span": false,
+        "status": "invalid"
+      },
+      "printable_strings_ge4": 2252,
+      "target_string_hits": []
+    },
+    "ARCHIVE-260718": {
+      "luac_sha256": "1daa8a58f83d377775864a0fc005e2836a3a993dad07f036b5ea5447b7848736",
+      "size": 92497,
+      "magic": "\u001bLuaS",
+      "version_byte": 83,
+      "format_byte": 1,
+      "extension_after_format": "974c000000000000",
+      "luac_data": "19930d0a1a0a",
+      "sizes": [
+        4,
+        8,
+        4,
+        8,
+        8
+      ],
+      "luac_int": 22136,
+      "luac_num": 370.5,
+      "body_offset": 41,
+      "standard_probe": {
+        "upvalue_count_byte": 207,
+        "source_size_byte": 206,
+        "source_end": 207,
+        "linedefined": 168699401,
+        "lastlinedefined": 1211236740,
+        "numparams": 37,
+        "is_vararg": 147,
+        "maxstacksize": 232,
+        "code_size": 1771647719,
+        "code_bytes_available": 92234,
+        "valid_code_span": false,
+        "status": "invalid"
+      },
+      "printable_strings_ge4": 2038,
+      "target_string_hits": []
+    },
+    "ARCHIVE-260804": {
+      "luac_sha256": "f3f8a6fb27551b7534717536bba2f971ef93282ed9b2ab3c51607e7dd9bed28b",
+      "size": 98984,
+      "magic": "\u001bLuaS",
+      "version_byte": 83,
+      "format_byte": 1,
+      "extension_after_format": "4a61000000000000",
+      "luac_data": "19930d0a1a0a",
+      "sizes": [
+        4,
+        8,
+        4,
+        8,
+        8
+      ],
+      "luac_int": 22136,
+      "luac_num": 370.5,
+      "body_offset": 41,
+      "standard_probe": {
+        "upvalue_count_byte": 207,
+        "source_size_byte": 206,
+        "source_end": 207,
+        "linedefined": 147402784,
+        "lastlinedefined": 2701855556,
+        "numparams": 210,
+        "is_vararg": 45,
+        "maxstacksize": 70,
+        "code_size": 2730673998,
+        "code_bytes_available": 98721,
+        "valid_code_span": false,
+        "status": "invalid"
+      },
+      "printable_strings_ge4": 4082,
+      "target_string_hits": []
+    }
+  }
+}

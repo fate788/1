@@ -1,0 +1,47 @@
+{
+  "writer": "custom Lua format inverse of bounded parser",
+  "samples": [
+    {
+      "version": "ARCHIVE-0604",
+      "source_sha256": "6933131488c62845daceb1eb2dfde9d6ddad34213e45a421d51145e18e0c9e2c",
+      "roundtrip_sha256": "6933131488c62845daceb1eb2dfde9d6ddad34213e45a421d51145e18e0c9e2c",
+      "source_size": 86323,
+      "roundtrip_size": 86323,
+      "byte_identical": true,
+      "structure_identical": true,
+      "source_final_offset": 86323,
+      "roundtrip_final_offset": 86323,
+      "source_remaining": 0,
+      "roundtrip_remaining": 0,
+      "output": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\repair-260804\\roundtrip\\ARCHIVE-0604.LuaScript.roundtrip.luac"
+    },
+    {
+      "version": "ARCHIVE-260718",
+      "source_sha256": "1daa8a58f83d377775864a0fc005e2836a3a993dad07f036b5ea5447b7848736",
+      "roundtrip_sha256": "1daa8a58f83d377775864a0fc005e2836a3a993dad07f036b5ea5447b7848736",
+      "source_size": 92497,
+      "roundtrip_size": 92497,
+      "byte_identical": true,
+      "structure_identical": true,
+      "source_final_offset": 92497,
+      "roundtrip_final_offset": 92497,
+      "source_remaining": 0,
+      "roundtrip_remaining": 0,
+      "output": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\repair-260804\\roundtrip\\ARCHIVE-260718.LuaScript.roundtrip.luac"
+    },
+    {
+      "version": "ARCHIVE-260804",
+      "source_sha256": "f3f8a6fb27551b7534717536bba2f971ef93282ed9b2ab3c51607e7dd9bed28b",
+      "roundtrip_sha256": "f3f8a6fb27551b7534717536bba2f971ef93282ed9b2ab3c51607e7dd9bed28b",
+      "source_size": 98984,
+      "roundtrip_size": 98984,
+      "byte_identical": true,
+      "structure_identical": true,
+      "source_final_offset": 98984,
+      "roundtrip_final_offset": 98984,
+      "source_remaining": 0,
+      "roundtrip_remaining": 0,
+      "output": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\repair-260804\\roundtrip\\ARCHIVE-260804.LuaScript.roundtrip.luac"
+    }
+  ]
+}

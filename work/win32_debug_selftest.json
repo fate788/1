@@ -1,0 +1,214 @@
+debuggee-after-break
+{
+  "python": "C:\\Users\\13162\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "command": "\"C:\\Users\\13162\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe\" -B \"C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\debuggee_break.py\"",
+  "child": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\debuggee_break.py",
+  "debug_only_this_process": true,
+  "breakpoint_seen": true,
+  "exit_code": 0,
+  "events": [
+    {
+      "code": 3,
+      "pid": 47916,
+      "tid": 47744,
+      "image_base": "0x7ff7879c0000",
+      "start_address": "0x7ff7879c12a0"
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 2,
+      "pid": 47916,
+      "tid": 32556
+    },
+    {
+      "code": 2,
+      "pid": 47916,
+      "tid": 41088
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 2,
+      "pid": 47916,
+      "tid": 42828
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 41088
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 32556
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 32556
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 32556
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 41088
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 41088
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 32556
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 32556
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 42828
+    },
+    {
+      "code": 1,
+      "pid": 47916,
+      "tid": 47744,
+      "exception_code": "0x80000003",
+      "first_chance": 1,
+      "exception_address": "0x7ffa9b8826c9"
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 7,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 42828
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 1,
+      "pid": 47916,
+      "tid": 47744,
+      "exception_code": "0x80000003",
+      "first_chance": 1,
+      "exception_address": "0x7ffa98c93122"
+    },
+    {
+      "code": 6,
+      "pid": 47916,
+      "tid": 47744
+    },
+    {
+      "code": 4,
+      "pid": 47916,
+      "tid": 41088
+    },
+    {
+      "code": 4,
+      "pid": 47916,
+      "tid": 42828
+    },
+    {
+      "code": 4,
+      "pid": 47916,
+      "tid": 32556
+    },
+    {
+      "code": 5,
+      "pid": 47916,
+      "tid": 47744
+    }
+  ]
+}

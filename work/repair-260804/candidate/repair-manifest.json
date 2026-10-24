@@ -1,0 +1,45 @@
+{
+  "status": "candidate_not_built",
+  "reason": "no verified successful response records are present; gameIntCode host registration and the 306/317 consumer contract are unresolved; LuaScript/CETRAINER/ARCHIVE codecs are not integrated into a complete EXE rebuild and loader validation path; the local config is disabled and contains no records",
+  "layers": {
+    "luascript_roundtrip": "passed",
+    "cetrainer_roundtrip": "passed_content_only",
+    "archive_roundtrip": "passed_content_only",
+    "policy_unit": "passed_separately",
+    "integration": "not_run"
+  },
+  "input_hashes": {
+    "SC2_Inv_260804SPt19_1316241517.original-copy.exe": {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\repair-260804\\reference\\SC2_Inv_260804SPt19_1316241517.original-copy.exe",
+      "sha256": "cea1493191bbd5513f556413d167e2fad81879e91294dff7c5cdca61497cc9ef",
+      "expected": "cea1493191bbd5513f556413d167e2fad81879e91294dff7c5cdca61497cc9ef",
+      "match": true
+    },
+    "LuaScript-260804.luac": {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\repair-260804\\reference\\LuaScript-260804.luac",
+      "sha256": "f3f8a6fb27551b7534717536bba2f971ef93282ed9b2ab3c51607e7dd9bed28b",
+      "expected": "f3f8a6fb27551b7534717536bba2f971ef93282ed9b2ab3c51607e7dd9bed28b",
+      "match": true
+    },
+    "lua53-64.dll": {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\repair-260804\\reference\\lua53-64.dll",
+      "sha256": "436f6bf9ac414e7e7259bef4f6e287702a41e1fddbdd9af7d43350d47539a3c9",
+      "expected": "436f6bf9ac414e7e7259bef4f6e287702a41e1fddbdd9af7d43350d47539a3c9",
+      "match": true
+    },
+    "cheatengine-x86_64.exe": {
+      "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\repair-260804\\reference\\cheatengine-x86_64.exe",
+      "sha256": "c743cbed593eabb1bf8f938395045df5c6422ffa9edb3a7be6abcbcb86398b01",
+      "expected": "c743cbed593eabb1bf8f938395045df5c6422ffa9edb3a7be6abcbcb86398b01",
+      "match": true
+    }
+  },
+  "config": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\repair-260804\\local-module\\maintenance-config.json",
+  "config_valid": true,
+  "config_errors": [],
+  "output_exe": null,
+  "original_files_unchanged": true,
+  "network_access": false,
+  "game_files_modified": false,
+  "security_settings_modified": false
+}

@@ -1,0 +1,31 @@
+{
+  "python": "C:\\Users\\13162\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "observer_script": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\diagnostic-package\\observe_modifier_startup.py",
+  "launcher": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\diagnostic-package\\run_startup_observation.ps1",
+  "working_directory": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\target-observation",
+  "target_copy": {
+    "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\target-observation\\SC2_Inv_260804SPt19_1316241517.exe",
+    "sha256": "CEA1493191BBD5513F556413D167E2FAD81879E91294DFF7C5CDCA61497CC9EF"
+  },
+  "reference_lua_dll": {
+    "path": "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\archive-history\\finalized\\ARCHIVE-260804\\lua53-64.dll",
+    "sha256": "436F6BF9AC414E7E7259BEF4F6E287702A41E1FDDBDD9AF7D43350D47539A3C9"
+  },
+  "package_hashes": {
+    "observe_modifier_startup.py": "4D705D6CBDECE9BD6BFFC9B2AC42301744B3CFBC9B3C3EF6409C3960C6EC6754",
+    "run_startup_observation.ps1": "493C15D6BB753345CBEB08B646AA8D6BE7C712A912A16CAA3DCC5C61C0698975"
+  },
+  "operations": [
+    "Check the effective administrator token and fixed file hashes.",
+    "Create one debugged target process with the fixed working directory.",
+    "Observe only its descendant chain and the verified lua53-64.dll image.",
+    "Validate the VM signatures, Proto+0x38 code pointer, root signature, savedpc alignment, and root range.",
+    "Record only the bounded getURL/smdx/GetAccountHandle values and native EQ/TEST outcomes.",
+    "Stop at the fixed timeout, hit cap, validation failure, confirmed exit boundary, or before pc179.",
+    "Terminate and clean only processes created in this debug chain; never attach to or operate the game."
+  ],
+  "outputs": [
+    "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\diagnostic-package\\startup-observation-run.json",
+    "C:\\Users\\13162\\Documents\\Codex\\2026-10-18\\di\\work\\diagnostic-package\\launcher-output.log"
+  ]
+}
